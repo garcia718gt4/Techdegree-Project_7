@@ -7,11 +7,10 @@
 ========================== */
 
 .grid-container {
-    margin: 0px auto;
+    margin: 0 auto;
     font-family: Montserrat, sans-serif;
     font-weight: normal;
     font-style: normal;
-
     display: grid; 
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -345,10 +344,10 @@ textarea[name=textarea] {
         background-color: rgba(165, 145, 240, 0.1);
         border: 1px solid rgba(165, 145, 240);
         margin: 0 auto;
-        width: 300px;
         margin-bottom: 15px;
         justify-content: space-between;
         align-items: center;
+        
     }
 
     .social-container:first-of-type {
@@ -613,6 +612,7 @@ textarea[name=textarea] {
     .traffic-header,
     .traffic-nav  {
         display: flex;
+       
     }
 
     .switch {
@@ -742,8 +742,6 @@ textarea[name=textarea] {
         padding-left: 15px;
     }
 
-
-
 }
 
 
@@ -812,9 +810,5 @@ textarea[name=textarea] {
     .button-cancel {
         margin-left: 20px;
     }
-
-  
-
-
 }
 
